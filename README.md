@@ -60,5 +60,3 @@ vue,vue route,vuex,vue cli,axios
 ### 可优化的地方
 
 目前提交订单后购物车的相应商品数据仍然存在，可以新增提交订单后自动删除购物车中相应商品数据的功能
-
-### Customize configuration
