@@ -4,7 +4,7 @@ import nProgress from "nprogress";
 import "nprogress/nprogress.css";
 //引入大仓库
 import store from "@/store";
-console.log("hacked");
+console.log("hacked123");
 
 //利用axios对象的方法create,去创建一个axios实例
 const requests = axios.create({
