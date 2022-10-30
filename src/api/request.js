@@ -4,11 +4,9 @@ import nProgress from "nprogress";
 import "nprogress/nprogress.css";
 //引入大仓库
 import store from "@/store";
-console.log("hacked123");
-
 //利用axios对象的方法create,去创建一个axios实例
 const requests = axios.create({
-  baseURL: "http://gmall-h5-api.atguigu.cn/api", //基础路径，自动在路径中添加api
+  baseURL: "/api", //基础路径，自动在路径中添加api
   timeout: 5000, //请求超时时间
 });
 // 请求拦截器，在发请求之前，请求拦截器可以检测到
